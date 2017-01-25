@@ -108,6 +108,7 @@ def get_grades_by_github(github):
     for row in rows:
         print "Student %s received grade of %s for project %s" % (
             github, row[1], row[0])
+    print '**********************rows: ', rows
     return rows
 
 def get_grades_by_title(title):
